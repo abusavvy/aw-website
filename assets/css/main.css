@@ -39,7 +39,7 @@ Primary use:	BuyCoin HTML Template
 /*==============================
 	Fonts
 ==============================*/
-@import url("https://fonts.googleapis.com/css2?family=Jura:wght@600;700&family=Roboto:wght@300;400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto&display=swap");
 /*==============================
 	Common styles
 ==============================*/
@@ -570,7 +570,7 @@ ul {
     transition: color 0.4s ease;
     margin-right: auto;
     margin-left: 15px;
-    font-family: "Jura", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-weight: 700;
   }
   .header--active .header__tagline {
@@ -599,9 +599,9 @@ ul {
     left: auto;
     right: auto;
     width: auto;
-    /* transform: translate3d(0, 0, 0); */
+    transform: translate3d(0, 0, 0);
     padding: 0;
-    /* margin-right: auto; */
+    margin-right: auto;
   }
   .header__nav li {
     display: block;
@@ -704,7 +704,7 @@ ul {
   padding: 120px 0 25px;
 }
 .home__content--right {
-  height: auto;
+  /* height: auto; */
   padding: 25px 0 100px;
 }
 .home__title {
@@ -712,7 +712,7 @@ ul {
   width: 100%;
   text-align: center;
   color: #fff;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 36px;
   line-height: 150%;
@@ -725,9 +725,8 @@ ul {
   color: #fff;
   font-size: 18px;
   line-height: 26px;
-  font-weight: 600;
   margin: 0 0 30px;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 .home__btns {
   display: flex;
@@ -754,8 +753,9 @@ ul {
   justify-content: center;
   align-items: center;
   margin: 25px 10px 0;
-  width: 170px;
-  height: 50px;
+  /* width: 170px; */
+  padding: 10px 30px;
+  /* height: 50px; */
   font-size: 14px;
   font-weight: 500;
   border-radius: 25px;
@@ -836,7 +836,7 @@ ul {
   width: 100%;
   text-align: center;
   color: #343434;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
   margin-bottom: 15px;
 }
@@ -893,7 +893,7 @@ ul {
     padding: 200px 0 50px;
   }
   .home__content--right {
-    height: auto;
+    /* height: auto; */
     padding: 50px 0 100px;
   }
 }
@@ -940,7 +940,7 @@ ul {
 .section__title {
   font-size: 32px;
   color: #343434;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   display: block;
   text-align: center;
@@ -982,7 +982,7 @@ ul {
   position: relative;
   text-align: center;
   font-size: 18px;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #647dee;
   margin-bottom: 30px;
@@ -2175,7 +2175,7 @@ ul {
   position: relative;
   z-index: 2;
   color: #fff;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 32px;
   margin-top: 0;
@@ -2383,7 +2383,7 @@ ul {
   color: #647dee;
   display: block;
   text-align: center;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
 .team__social {
@@ -2557,7 +2557,7 @@ ul {
 .counter__value {
   display: block;
   color: #fff;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   font-size: 42px;
   line-height: 100%;
@@ -2666,7 +2666,7 @@ ul {
   left: 0;
   right: 0;
   bottom: 0;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   color: #fff;
   font-size: 32px;
@@ -3074,7 +3074,7 @@ ul {
 .modal__title {
   font-size: 32px;
   color: #343434;
-  font-family: "Jura", sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 600;
   line-height: 100%;
   display: block;
