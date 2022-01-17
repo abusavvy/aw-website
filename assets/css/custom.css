@@ -1,0 +1,32 @@
+.header__social {
+  margin-right: 50px;
+  display: none;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.header__social li {
+  display: block;
+  margin-right: 15px;
+}
+
+.header__social a {
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  color: #317cec;
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+@media (min-width: 767px) {
+  .header__social {
+    display: flex;
+  }
+}
