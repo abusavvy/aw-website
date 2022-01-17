@@ -2963,6 +2963,11 @@ ul {
   position: relative;
 }
 
+.footer__social a img {
+  width: 22px;
+  height: 22px;
+}
+
 @media (min-width: 768px) {
   .footer__social {
     justify-content: flex-start;
