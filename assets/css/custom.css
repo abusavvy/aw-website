@@ -31,6 +31,25 @@
   }
 }
 
+.banner__text {
+  color: rgb(252, 250, 252);
+  font-family: "Roboto", Sans-serif;
+  font-size: 45px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  line-height: 1.1em;
+  margin-bottom: 30px;
+}
+
+.banner img {
+  max-width: 85%;
+}
+
+.bg-black {
+  background-color: black;
+}
+
 /* helper classes */
 
 .text-center {
