@@ -59,6 +59,28 @@ html {
   background-color: black;
 }
 
+/* add the collection image zoom */
+.nft__image--box {
+  overflow: hidden;
+
+  box-shadow: 9px 13px 8px -4px rgba(0, 0, 0, 0.28);
+}
+
+.nft__image--box img {
+  transition-duration: 3s;
+  padding: 20px;
+  margin: 0 auto;
+  display: block;
+}
+
+.nft__image--box img:hover {
+  transform: scale(2.2);
+  -webkit-transform: scale(2.2);
+  -moz-transform: scale(2.2);
+  cursor: zoom-in;
+  z-index: 0;
+}
+
 /* helper classes */
 
 .text-center {
