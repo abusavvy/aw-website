@@ -2493,28 +2493,30 @@ ul {
   display: block;
   width: calc(100% - 30px);
 }
-.faq__btn button svg {
+.faq__btn button i {
   width: 24px;
   height: auto;
-  fill: #647dee;
+  color: #647dee;
   z-index: 1;
   pointer-events: none;
   transform: rotate(0deg);
-  transition: transform 0.4s ease;
+  transition: transform 0.5s ease;
   margin-right: -5px;
 }
-.faq__btn button[aria-expanded="true"] svg {
-  transform: rotate(180deg);
+.faq__btn button[aria-expanded="true"] i {
+  transform: rotate(315deg);
 }
 .faq__btn button:hover {
   color: #647dee;
 }
 .faq__text {
+  font-style: italic;
   color: #505050;
   font-size: 16px;
   line-height: 26px;
   padding-bottom: 20px;
   margin-bottom: 0;
+  font-weight: bold;
 }
 @media (min-width: 768px) {
   .faq {
