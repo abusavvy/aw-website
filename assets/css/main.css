@@ -1202,8 +1202,7 @@ ul {
 }
 .about__text {
   display: block;
-  /* background-color: #fff; */
-  background: url(../img/about_bg.png);
+  background-color: #fff;
   background-position: center;
   background-size: cover;
   position: relative;
@@ -2845,18 +2844,20 @@ ul {
   padding-left: 40px;
 }
 .roadmap li span {
-  font-size: 16px;
+  font-size: 24px;
   color: #343434;
-  line-height: 24px;
+  line-height: 30px;
   font-weight: 500;
   display: block;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
 }
 .roadmap li p {
-  font-size: 16px;
-  color: #505050;
-  line-height: 24px;
-  margin-bottom: 0;
+  font-size: 18px;
+  color: #5e5e5e;
+  line-height: 30px;
+  margin-bottom: 22px;
+  font-weight: bold;
 }
 .roadmap li:before,
 .roadmap li:after {
@@ -2888,7 +2889,7 @@ ul {
 .roadmap li:last-child {
   margin-bottom: 0;
 }
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
   .roadmap {
     padding: 35px 0;
     margin-top: 50px;
@@ -2898,7 +2899,7 @@ ul {
   }
   .roadmap li span {
     font-size: 18px;
-    margin-bottom: 10px;
+    margin-bottom: 35px;
   }
 }
 @media (min-width: 1200px) {
@@ -2914,27 +2915,29 @@ ul {
   .roadmap:before {
     width: auto;
     height: 4px;
-    top: 52px;
+    top: 75px;
     left: 0;
     right: 0;
     background-image: linear-gradient(90deg, #647dee 0%, #a754e2 100%);
   }
   .roadmap li {
-    display: block;
-    max-width: 210px;
-    padding-left: 0;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    max-width: 200px;
+    padding-left: 0px;
     margin: 0 15px;
   }
   .roadmap li span {
     margin-bottom: 60px;
   }
   .roadmap li:before {
-    top: 42px;
+    top: 64px;
   }
   .roadmap li:after {
-    top: 46px;
+    top: 68px;
   }
-}
+} */
 /*==============================
 	Footer
 ==============================*/
