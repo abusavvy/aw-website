@@ -55,6 +55,10 @@ html {
   max-width: 85%;
 }
 
+.bg--gradient {
+  background: linear-gradient(180deg, #000000 48%, #d983e0 100%);
+}
+
 .bg-black {
   background-color: black;
 }
