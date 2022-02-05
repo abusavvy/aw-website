@@ -663,7 +663,9 @@ ul {
 ==============================*/
 .home {
   display: block;
+  padding: 180px 0 125px;
   position: relative;
+  background-image: url(../img/hex-dark.png);
 }
 /* .home:after {
   content: "";
@@ -677,6 +679,7 @@ ul {
   background-image: linear-gradient(90deg, #647dee 0%, #a754e2 100%);
   opacity: 0.4;
 } */
+
 .home__slider {
   display: block;
   position: absolute;
@@ -695,13 +698,11 @@ ul {
   align-items: center;
   flex-wrap: wrap;
   width: 100%;
-  height: 100vh;
   position: relative;
   z-index: 2;
 }
 .home__content--left {
   height: auto;
-  padding: 120px 0 25px;
 }
 .home__content--right {
   /* height: auto; */

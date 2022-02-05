@@ -71,6 +71,10 @@ html {
   background-color: black;
 }
 
+.text__white {
+  color: #ffffff;
+}
+
 /* add the collection image zoom */
 .nft__image--box {
   overflow: hidden;
