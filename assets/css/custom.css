@@ -34,6 +34,14 @@ html {
   border-radius: 50%;
 }
 
+.footer {
+  background-color: #040d20;
+}
+
+.top--footer {
+  background-image: url(../img/white.png);
+}
+
 @media (min-width: 767px) {
   .header__social {
     display: flex;
@@ -41,9 +49,9 @@ html {
 }
 
 .banner__text {
-  color: rgb(252, 250, 252);
+  color: rgb(156, 156, 156);
   font-family: "Roboto", Sans-serif;
-  font-size: 45px;
+  font-size: 36px;
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
